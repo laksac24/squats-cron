@@ -26,7 +26,7 @@ count = 0
 last_change_time = time.time()  # Timer for inactivity check
 last_count = 0  # To track count changes
 
-API_URL = "https://pushup-poseestimation-2.onrender.com/process_frame/"  # Your hosted API
+API_URL = "https://squats-cron.onrender.com/process_frame/"  # Your hosted API
 
 class ImageData(BaseModel):
     image: str  # Base64 encoded image
